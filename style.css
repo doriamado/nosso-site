@@ -1,5 +1,132 @@
-*{
-    padding: 0;
-    margin: 0;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+body, li, ul, p{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-family:  helvetica, arial, sans-serif;
+    font-size: 1.2rem;
 }
+ 
+a{
+    text-decoration: none;
+    color: white;
+}
+ 
+.header{
+    background: #000000;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    height: 500px;
+   
+ 
+}
+ 
+.senac {
+   
+        height: 80px;
+        width: 80px;
+        position: absolute;
+        top: 5px;
+        left: 1000px;
+   
+}
+img {
+    height: 582px;
+    position: absolute;
+    right: 1px;
+    top: -42px;
+   
+}
+ 
+.menu{
+    display: flex;
+    position: absolute;
+    top: 2%;
+    left: 100px;
+   
+}
+ 
+.menu li{
+    margin-left: 8px;
+}
+ 
+.menu li a{
+    display: block;
+    padding: 10px;
+}
+ 
+h1{
+    color: white;
+    position: absolute;
+    left: 34%;
+    font-size: 460%;
+    top: 130px;
+    font-family: apica ;
+}
+ 
+.menu li a::after{
+    content: " ";
+    width: 0%;
+    height: 2px;
+    background-color:white;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    transition: 0.5s ease-in-out;
+   
+}
+ 
+nav li a:hover::after{
+    width: 100%;
+}
+ 
+.senac{
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    top: 0px;
+    left: 15px;  
+}
+ 
+@font-face {
+    font-family: 'apica';
+    src: url(../../../../Glamor_-_TTF/);
+}
+ 
+nav a{
+    position: relative;
+}
+
+footer{
+    height: 100px;
+    background-color: #000000;
+    margin-top: 100px;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+      
+}
+ 
+.footer li{
+    margin-left: 8px;
+}
+ 
+.footer li a{
+    display: block;
+    padding: 10px;
+}
+
+.foguete{
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    top: 650px;
+    left: 100px;     
+}
+
+
+
